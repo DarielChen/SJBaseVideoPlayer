@@ -49,7 +49,7 @@ Pod::Spec.new do |s|
   
   s.subspec 'PLPlayer' do |ss|
     ss.source_files = 'SJBaseVideoPlayer/PLPlayer/**/*.{h,m}'
-    ss.dependency 'PLPlayerKit'
+    ss.dependency 'PLPlayerKit/universal'
     ss.dependency 'SJBaseVideoPlayer/Common'
   end
   
